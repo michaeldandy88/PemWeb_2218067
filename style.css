@@ -198,3 +198,9 @@ input:focus{
 .signup label:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 414px){
+    nav{
+        width : 172%;
+    }
+}
