@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Beranda</title>
-    <style>
-        body {            
-           background-color: rgb(24, 22, 22) ;
-        }        
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenjualanRokok</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center>
-    <header>
-        <font color = "White">
-            <h1>Warung Rokok</h1>
-            <img src = "foto/ikon.png" alt="logo rokok" width="100" height="50"/>
-        </header>
-<form>
-    <label for="cari">Cari Rokok </label>
-    <input type="rokok">  
-    <button type="cari">Cari</button>
-</form>        
-<br>
     <nav>
-        <a href="#">Daftar Rokok</a>
-        <a href="login.html">Login</a>
-        <a href="Registrasi.html">Registrasi</a>
+        <div class="wrapper">
+            <div class="logo"><a href=''>WarungRokok.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="register.html" class="button1">Register</a></li>
+                </ul>
+            </div>
     </nav>
-    <br>
-    <section>
-        <div class="product">
-            <img src="foto/Marlboro.jpg" alt="Rokok1" width="400px">
-            <h2>Marlboro</h2>
-            <p>Marlboro merupakan merek sigaret paling laris di pasar rokok dunia sejak tahun 1972. 
-                Menurut press release di Philip Morris International, produk ini telah terjual lebih dari 290 
-                juta pack di seluruh dunia pada 2018. Mayoritas jenis rokok Marlboro adalah sigaret putih, 
-                tapi pada 2016 mereka juga meluncurkan sigaret kretek filter.</p>
-        </div>
-        <div class="product">
-            <img src="foto/sampoerna.jpeg" alt="Rokok2">
-            <h2>Sampoerna</h2>
-            <p>Sampoerna A merupakan salah satu produk unggulan dari perusahaan asal Surabaya ini. Merek ini dijual pertama kali pada tahun 1989 dan merupakan sigaret kretek mesin filter dengan kadar nikotin yang rendah pertama di Indonesia.</p>
-        </div>
-    </section>
-</font>
-</center>
+    <div class="wrapper">
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?w=740&t=st=1713744523~exp=1713745123~hmac=8576661898d2843207161a516aafd89e28918ec2f9a2615e74ea3f7258954efd"/>
+            <div class="kolom">
+                <p class="deskripsi">Temukan Rokok Favoritmu!</p>
+                <h2>Find Your Favorite Cigarete!</h2>
+                <p>Ngapain Dibahas Kan Beda Kelas</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
